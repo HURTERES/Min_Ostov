@@ -52,7 +52,7 @@ namespace Min_Ostov
                     using (Graphics g = this.CreateGraphics())
                         g.DrawLine(p, new PointF(40, 133), new PointF(135, 36));
                 }
-                if (Cbx14.Checked)
+                if (Cbx15.Checked)
                 {
                         using (Graphics g = this.CreateGraphics())
                             g.DrawLine(p, new PointF(40, 133), new PointF(220, 133));
@@ -124,7 +124,7 @@ namespace Min_Ostov
 
         private void Cbx14_CheckedChanged(object sender, EventArgs e)
         {
-            if (Cbx14.Checked)
+            if (Cbx15.Checked)
             {
                 PointF point1 = new PointF(40, 133);
                 PointF point2 = new PointF(220, 133);
@@ -136,7 +136,7 @@ namespace Min_Ostov
                 PointF PLbl = new PointF((point1.X + point2.X) / 2, (point1.Y + point2.Y) / 2 + 5);
                         Label Lbl = new Label();
                         Lbl.Location = new Point((int)PLbl.X, (int)PLbl.Y);
-                        Lbl.Name = Cbx14.Name.Split('x')[1];
+                        Lbl.Name = Cbx15.Name.Split('x')[1];
                         Lbl.Text = userInput;
                         Lbl.AutoSize = true;
                         Controls.Add(Lbl);
@@ -144,10 +144,10 @@ namespace Min_Ostov
             }
             else
             {
-                RemoveLabel("14");
+                RemoveLabel("15");
                 Refresh();
                 Refreshs();
-                RefreshList(Cbx14.Name.Split('x')[1]);
+                RefreshList(Cbx15.Name.Split('x')[1]);
             }
         }
 
@@ -231,7 +231,7 @@ namespace Min_Ostov
             }
             else
             {
-                RemoveLabel("52");
+                RemoveLabel("53");
                 Refresh();
                 Refreshs();
                 RefreshList(Cbx53.Name.Split('x')[1]);
@@ -474,7 +474,7 @@ namespace Min_Ostov
                     using (Graphics g = this.CreateGraphics())
                         g.DrawLine(p, new PointF(Lbl1.Location.X + 15, Lbl1.Location.Y + 300), new PointF(Lbl2.Location.X + 15, Lbl2.Location.Y + 300));
                 }
-                if (Lst3[i] == "14")
+                if (Lst3[i] == "15")
                 {
                     using (Graphics g = this.CreateGraphics())
                         g.DrawLine(p, new PointF(Lbl1.Location.X + 15, Lbl1.Location.Y + 300), new PointF(Lbl4.Location.X + 15, Lbl4.Location.Y + 300));

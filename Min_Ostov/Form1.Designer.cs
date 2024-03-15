@@ -38,7 +38,7 @@
             this.guna2Elipse3 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.Lbl4 = new System.Windows.Forms.Label();
             this.Lbl5 = new System.Windows.Forms.Label();
-            this.Cbx14 = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.Cbx15 = new Guna.UI2.WinForms.Guna2CheckBox();
             this.Cbx52 = new Guna.UI2.WinForms.Guna2CheckBox();
             this.Cbx23 = new Guna.UI2.WinForms.Guna2CheckBox();
             this.Cbx34 = new Guna.UI2.WinForms.Guna2CheckBox();
@@ -140,25 +140,25 @@
             this.Lbl5.Text = "4";
             this.Lbl5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // Cbx14
+            // Cbx15
             // 
-            this.Cbx14.AutoSize = true;
-            this.Cbx14.CheckedState.BorderColor = System.Drawing.Color.Black;
-            this.Cbx14.CheckedState.BorderRadius = 0;
-            this.Cbx14.CheckedState.BorderThickness = 1;
-            this.Cbx14.CheckedState.FillColor = System.Drawing.Color.Bisque;
-            this.Cbx14.CheckMarkColor = System.Drawing.Color.Black;
-            this.Cbx14.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.Cbx14.Location = new System.Drawing.Point(130, 112);
-            this.Cbx14.Name = "Cbx14";
-            this.Cbx14.Size = new System.Drawing.Size(26, 17);
-            this.Cbx14.TabIndex = 6;
-            this.Cbx14.Text = "\r\n";
-            this.Cbx14.UncheckedState.BorderColor = System.Drawing.Color.Black;
-            this.Cbx14.UncheckedState.BorderRadius = 0;
-            this.Cbx14.UncheckedState.BorderThickness = 1;
-            this.Cbx14.UncheckedState.FillColor = System.Drawing.Color.Transparent;
-            this.Cbx14.CheckedChanged += new System.EventHandler(this.Cbx14_CheckedChanged);
+            this.Cbx15.AutoSize = true;
+            this.Cbx15.CheckedState.BorderColor = System.Drawing.Color.Black;
+            this.Cbx15.CheckedState.BorderRadius = 0;
+            this.Cbx15.CheckedState.BorderThickness = 1;
+            this.Cbx15.CheckedState.FillColor = System.Drawing.Color.Bisque;
+            this.Cbx15.CheckMarkColor = System.Drawing.Color.Black;
+            this.Cbx15.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.Cbx15.Location = new System.Drawing.Point(130, 112);
+            this.Cbx15.Name = "Cbx15";
+            this.Cbx15.Size = new System.Drawing.Size(26, 17);
+            this.Cbx15.TabIndex = 6;
+            this.Cbx15.Text = "\r\n";
+            this.Cbx15.UncheckedState.BorderColor = System.Drawing.Color.Black;
+            this.Cbx15.UncheckedState.BorderRadius = 0;
+            this.Cbx15.UncheckedState.BorderThickness = 1;
+            this.Cbx15.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.Cbx15.CheckedChanged += new System.EventHandler(this.Cbx14_CheckedChanged);
             // 
             // Cbx52
             // 
@@ -308,7 +308,7 @@
             this.Controls.Add(this.Cbx34);
             this.Controls.Add(this.Cbx23);
             this.Controls.Add(this.Cbx52);
-            this.Controls.Add(this.Cbx14);
+            this.Controls.Add(this.Cbx15);
             this.Controls.Add(this.Lbl5);
             this.Controls.Add(this.Lbl4);
             this.Controls.Add(this.Lbl3);
@@ -334,7 +334,7 @@
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse3;
         private System.Windows.Forms.Label Lbl4;
         private System.Windows.Forms.Label Lbl5;
-        private Guna.UI2.WinForms.Guna2CheckBox Cbx14;
+        private Guna.UI2.WinForms.Guna2CheckBox Cbx15;
         private Guna.UI2.WinForms.Guna2CheckBox Cbx52;
         private Guna.UI2.WinForms.Guna2CheckBox Cbx23;
         private Guna.UI2.WinForms.Guna2CheckBox Cbx34;
