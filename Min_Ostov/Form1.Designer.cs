@@ -46,7 +46,6 @@
             this.Cbx53 = new Guna.UI2.WinForms.Guna2CheckBox();
             this.guna2Elipse4 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Elipse5 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.BtnCalculate = new Guna.UI2.WinForms.Guna2Button();
             this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
@@ -343,7 +342,6 @@
         private Guna.UI2.WinForms.Guna2CheckBox Cbx53;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse4;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse5;
-        private System.Windows.Forms.Timer timer1;
         private Guna.UI2.WinForms.Guna2Button BtnCalculate;
         private System.Windows.Forms.Label label1;
     }
