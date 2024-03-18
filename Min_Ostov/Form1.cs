@@ -389,9 +389,12 @@ namespace Min_Ostov
             try { 
             min = 10000;
             for (int i = 0; i < Lst.Count; i++)
-                if (Lst[i].StartsWith("4") && !(Lst[i].Split('=')[0].EndsWith(Way)) && TrueFalse != 2)
+                if (Lst[i].StartsWith("4") && !(Lst[i].Split('=')[0].EndsWith(Way)) && TrueFalse <= 2)
+                        if(Cbx23.Checked == true && Cbx34.Checked == true && Cbx53.Checked == false && Cbx52.Checked == false)
                     Lst2.Add(Lst[i]);
-            for (int i = 0; i < Lst2.Count; i++)
+            else if(Cbx12.Checked == true && Cbx52.Checked == true&& Cbx23.Checked == false)
+                            Lst2.Add(Lst[i]);
+                for (int i = 0; i < Lst2.Count; i++)
                 if (min > int.Parse(Lst2[i].Split('=')[1]))
                 {
                     min = int.Parse(Lst2[i].Split('=')[1]);
